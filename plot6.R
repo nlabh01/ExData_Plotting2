@@ -1,6 +1,7 @@
 
 # below two lines makes the script independent of the path 
 # where it is downlaoded and executed from
+script_path <- dirname(sys.frame(1)$ofile)
 setwd(script_path)
 
 
